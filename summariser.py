@@ -26,7 +26,7 @@ if(user_input):
 
     vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings())
 
-    question = "Summarize the main points of this proposal"
+    question = "Summarise the main points of this article"
     docs = vectorstore.similarity_search(question)
     len(docs)
 
