@@ -1,5 +1,7 @@
-python-dotenv
 openai
 langchain
 chromadb
+bs4
+python-dotenv
+tiktoken
 streamlit
