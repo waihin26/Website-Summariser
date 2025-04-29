@@ -17,7 +17,7 @@ def get_text():
 
 user_input = get_text()
 
-if(user_input):
+if user_input:
     loader = WebBaseLoader(user_input)
     data = loader.load()
 
